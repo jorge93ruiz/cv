@@ -1,0 +1,18 @@
+@media (max-width: 991px) {
+  .service-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .contact-item,
+  .service-item,
+  .about-info,
+  .about-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section .about-img {
+    padding-bottom: 20px;
+  }
+}
